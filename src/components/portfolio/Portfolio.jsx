@@ -4,7 +4,6 @@ import constructionTool from "../../assets/工程管理.jpg";
 import archProject from "../../assets/arch-project.jpg";
 import cyDesign from "../../assets/cy-design-rwd.jpg";
 import archGod from "../../assets/建築之神要告解.jpg";
-import codeyt from "../../assets/codeyt.jpg";
 import pos from "../../assets/pos.jpg";
 import React from "react";
 
