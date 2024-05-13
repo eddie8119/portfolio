@@ -13,13 +13,12 @@ const Experience = () => {
     "VueJS",
     "NextJS",
     "NuxtJS",
-    "NodeJS",
-    "Express",
-    "Firebase",
     "RESTful APIs",
+    "Docker",
+    "Git",
+    "Firebase",
     "Ethereum",
     "Solidity",
-    "Git",
   ];
 
   return (

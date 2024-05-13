@@ -1,5 +1,5 @@
 import "./portfolio.css";
-
+import materialsTool from "../../assets/materials-tool.png";
 import constructionTool from "../../assets/工程管理.jpg";
 import archProject from "../../assets/arch-project.jpg";
 import cyDesign from "../../assets/cy-design-rwd.jpg";
@@ -11,15 +11,31 @@ import React from "react";
 const Portfolio = () => {
   const soloProjects = [
     {
+      id: 0,
+      title: "Engineering Materials Management System",
+      img: materialsTool,
+      technologies: "React | TypeScript",
+      description:
+        "Integrates material management throughout the project lifecycle (Planning-Engineering-Closure)",
+      featurelists: [
+        "‧ Forms: Useform / Mui",
+        "‧ Charts: react-chartjs-2",
+        "‧ i18n (English / Chinese) (ChainedBackend approach)",
+        "‧ Vitest unit testing",
+      ],
+      link: "https://github.com/eddie8119/react-dashboard",
+    },
+    {
       id: 1,
-      title: "室內現場工程管理手帳",
+      title: "Construction Management Cane",
       img: constructionTool,
       technologies: "Vue3 | Vuex | Firebase | Tailwind CSS",
       description:
-        "卡片式專案管理-順應工地動態運作，輔助設計師減少遺漏施作，工進運行平順",
+        "Assisted interior industry designers in reducing cost and time wasted resulting from omissions.",
       featurelists: [
-        "‧ 介紹影片3.2萬次觀看，241次分享，累積 47位設計師註冊",
-        "‧ 成本節省效益: 公司數 * 3000元起/每月 * 專案數 ",
+        "‧ Garnered 33,000 views and 253 shares by industry professionals for the introduction video.",
+        "‧ Over 57 industry interior designers registered. ",
+        "‧ Creating industry benefits: company count * savings starting from NT$3000 * number of projects per month. ",
       ],
       link: "https://interior-construction-helper.web.app/#/",
     },
@@ -111,7 +127,7 @@ const Portfolio = () => {
                 className="btn btn-primary"
                 rel="noreferrer"
               >
-                Live Demo
+                Link
               </a>
             </div>
           </article>

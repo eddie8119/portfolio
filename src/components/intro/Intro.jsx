@@ -30,15 +30,22 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            Front-End Developer with over 1.5 years of expertise in building Web
-            applications development.
+            1.5 years of experience in front-end development in Vue and React,
+            using Tailwind and Sass to manage CSS and be proficient in
+            responsive design (RWD).
             <br />
-            I adhere to the following principles in my work:
+            - Passionate about researching and synthesizing code, creating
+            YouTube content to share programming. Also manages a YouTube channel
+            sharing design thinking over 7 years.
             <br />
-            - I focus on providing solutions that address the client's needs and
-            solve their problems.
-            <br />- I believe in keeping my clients engaged throughout the
-            development process, ensuring them.
+            - Possesses the ability to explore needs and invent, evidenced by
+            being an early adopter and patent holder of a popular rotating
+            feature in 20,000 units of consumer electronics.
+            <br />- Combining programming skills with inventive abilities,
+            created a site management tool for the interior design industry as a
+            side project, assisting over 57 interior designers to save at least
+            $15,000 in construction costs and avoid a 3-day delay per project
+            per month.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
