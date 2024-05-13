@@ -87,15 +87,6 @@ const Portfolio = () => {
       ],
       link: "https://eddie8119.github.io/pos/",
     },
-    {
-      id: 5,
-      title: "前端主題Youtube頻道",
-      img: codeyt,
-      technologies: "",
-      description: "",
-      featurelists: [],
-      link: "https://www.youtube.com/channel/UC-1teyrSCuxtpgia0XMr-Ng",
-    },
   ];
 
   return (
