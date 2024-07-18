@@ -1,6 +1,7 @@
 import "./portfolio.css";
 import materialsTool from "../../assets/materials-tool.png";
 import constructionTool from "../../assets/工程管理.jpg";
+import codeyt from "../../assets/codeyt.jpg";
 import archProject from "../../assets/arch-project.jpg";
 import cyDesign from "../../assets/cy-design-rwd.jpg";
 import archGod from "../../assets/建築之神要告解.jpg";
@@ -23,6 +24,7 @@ const Portfolio = () => {
         "‧ Vitest unit testing",
       ],
       link: "https://github.com/eddie8119/react-dashboard",
+      demoLink: "https://youtu.be/Ho3Nqg1ynEI",
     },
     {
       id: 1,
@@ -37,6 +39,17 @@ const Portfolio = () => {
         "‧ Creating industry benefits: company count * savings starting from NT$3000 * number of projects per month. ",
       ],
       link: "https://interior-construction-helper.web.app/#/",
+    },
+    {
+      id: 1.2,
+      title: "《是 code 不是 cold》（youtube）",
+      img: codeyt,
+      technologies: "Technical Knowledge Output",
+      description: "Sharing Front-end Technology / Computational Thinking",
+      featurelists: [
+        "‧ Foster a culture of code discussion within the front-end team, encouraging colleagues who lack confidence in coding to also start enjoying programming discussions. ",
+      ],
+      link: "https://www.youtube.com/@code-not-cold",
     },
     {
       id: 2,
@@ -119,6 +132,16 @@ const Portfolio = () => {
               >
                 Link
               </a>
+              {pro.demoLink && (
+                <a
+                  href={pro.demoLink}
+                  target="_blank"
+                  className="btn btn-primary"
+                  rel="noreferrer"
+                >
+                  Demo
+                </a>
+              )}
             </div>
           </article>
         ))}

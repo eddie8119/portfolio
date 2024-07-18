@@ -14,10 +14,8 @@ const Experience = () => {
     "NextJS",
     "NuxtJS",
     "RESTful APIs",
-    "Docker",
     "Git",
     "Firebase",
-    "Ethereum",
     "Solidity",
   ];
 
