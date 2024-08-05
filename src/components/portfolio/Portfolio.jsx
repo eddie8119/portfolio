@@ -48,9 +48,7 @@ const Portfolio = () => {
       img: codeyt,
       technologies: "Technical Knowledge Output",
       description: "Sharing Front-end Technology / Computational Thinking",
-      featurelists: [
-        "‧ Foster a culture of code discussion within the front-end team, encouraging colleagues who lack confidence in coding to also start enjoying programming discussions. ",
-      ],
+      featurelists: [],
       link: "https://www.youtube.com/@code-not-cold",
     },
     {
