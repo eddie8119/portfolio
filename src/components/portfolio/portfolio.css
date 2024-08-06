@@ -21,6 +21,7 @@
   border-radius: 1.5rem;
   overflow: hidden;
   height: 30%;
+  background: var(--color-white);
 }
 
 .portfolio__item h3 {

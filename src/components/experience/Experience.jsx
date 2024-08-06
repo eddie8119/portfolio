@@ -27,7 +27,7 @@ const Experience = () => {
       <h2>Skills</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Full-stack Development</h3>
+          {/* <h3>Full-stack Development</h3> */}
           <div className="experience__content">
             {skills.map((skill, index) => (
               <article key={index} className="experience__details">
