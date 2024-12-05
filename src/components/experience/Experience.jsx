@@ -5,20 +5,20 @@ import "./experience.css";
 const Experience = () => {
   const skills = [
     "HTML",
-    "CSS",
-    "Tailwind CSS",
+    "CSS, Sass",
     "JavaScript",
     "TypeScript",
     "ReactJS, Redux-toolkit",
-    "VueJS",
     "NextJS",
+    "VueJS",
     "NuxtJS",
-    "RESTful APIs",
-    "Git",
     "Node.js",
     "Express",
+    "NestJS",
+    "RESTful APIs",
+    "Git",
+    "Tailwind CSS",
     "Firebase",
-    "Solidity",
   ];
 
   return (

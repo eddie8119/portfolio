@@ -1,4 +1,6 @@
+import React from "react";
 import "./portfolio.css";
+
 import materialsTool from "../../assets/materials-tool.png";
 import constructionTool from "../../assets/工程管理.jpg";
 import codeyt from "../../assets/codeyt.png";
@@ -8,7 +10,7 @@ import cyDesign from "../../assets/cy-design-rwd.jpg";
 import archGod from "../../assets/建築之神要告解.jpg";
 import aiVision from "../../assets/AI-vision.png";
 import pos from "../../assets/pos.jpg";
-import React from "react";
+import zeus from "../../assets/zeus.png";
 
 const Portfolio = () => {
   const soloProjects = [
@@ -25,8 +27,8 @@ const Portfolio = () => {
         "‧ i18n (English / Chinese) (ChainedBackend approach)",
         "‧ Vitest unit testing",
       ],
-      link: "https://github.com/eddie8119/react-dashboard",
-      demoLink: "https://youtu.be/Ho3Nqg1ynEI",
+      link: "https://youtu.be/Ho3Nqg1ynEI ",
+      repoLink: "https://github.com/eddie8119/react-dashboard",
     },
     {
       id: 1,
@@ -41,6 +43,17 @@ const Portfolio = () => {
         "‧ Creating industry benefits: company count * savings starting from NT$3000 * number of projects per month. ",
       ],
       link: "https://interior-construction-helper.web.app/#/",
+    },
+    {
+      id: 1.2,
+      title: "Layout-focused",
+      img: zeus,
+      technologies:
+        "React | TypeScript | Tailwind CSS | Sass | Flex & Grid | RWD ",
+      description: "Sharing Front-end Technology / Computational Thinking",
+      featurelists: ["Use semantic HTML5 / Write modular and reusable CSS"],
+      link: "https://zeus-network-demo.netlify.app/",
+      repoLink: "https://github.com/eddie8119/react-dashboard",
     },
     {
       id: 2,
@@ -111,8 +124,8 @@ const Portfolio = () => {
         "‧ Qualitative Research Interviews with Visually Impaired Individuals",
         "‧ Identify User Needs and Corresponding Product Features",
       ],
-      link: "https://www.youtube.com/watch?v=-NY5qn2AHZk",
-      demoLink: "https://www.youtube.com/watch?v=FMqWC8Rn-AY",
+      link: "https://www.youtube.com/watch?v=FMqWC8Rn-AY",
+      repoLink: "https://www.youtube.com/watch?v=-NY5qn2AHZk",
     },
     {
       id: 8,
@@ -157,14 +170,14 @@ const Portfolio = () => {
               >
                 Link
               </a>
-              {pro.demoLink && (
+              {pro.repoLink && (
                 <a
-                  href={pro.demoLink}
+                  href={pro.repoLink}
                   target="_blank"
                   className="btn btn-primary"
                   rel="noreferrer"
                 >
-                  Demo
+                  Repo
                 </a>
               )}
             </div>

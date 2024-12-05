@@ -21,7 +21,7 @@ const Intro = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>1.5+ year</small>
+              {/* <small>1.5+ year</small> */}
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -30,22 +30,40 @@ const Intro = () => {
             </article>
           </div>
           <p>
-            1.5 years of experience in front-end development in Vue and React,
-            using Tailwind and Sass to manage CSS and be proficient in
-            responsive design (RWD).
+            Experience in React and Vue, with deep expertise in React
+            technologies, including React Hooks.
             <br />
-            - Passionate about researching and synthesizing code, creating
-            YouTube content to share programming. Also manages a YouTube channel
-            sharing design thinking over 7 years.
+            -Work Experience:
             <br />
-            - Possesses the ability to explore needs and invent, evidenced by
-            being an early adopter and patent holder of a popular rotating
-            feature in 20,000 units of consumer electronics.
-            <br />- Combining programming skills with inventive abilities,
-            created a site management tool for the interior design industry as a
-            side project, assisting over 57 interior designers to save at least
-            $15,000 in construction costs and avoid a 3-day delay per project
-            per month.
+            <li>
+              React & Next.js: Developed a company's official website with
+              Static Site Generation (SSG).
+            </li>
+            <li>
+              Vue3: Built a SaaS platform for the real estate rental industry.
+            </li>
+            <li>Vue2 & Nuxt.js: Created a gaming lobby platform.</li>
+            <br />
+            -Team Contributions:
+            <br />
+            <li>
+              Initiated front-end study groups to foster a collaborative
+              learning environment, enhance communication within the team, and
+              promote skill development among colleagues.
+            </li>
+            <br />
+            -Versatility:
+            <br />
+            <li>
+              Combines technical expertise with business acumen from commercial
+              training.
+            </li>
+            <li>
+              Side Project: An on-site interior construction management tool.
+              This project addressed pain points in engineering workflows,
+              introducing small yet impactful software tools that help
+              professionals reduce construction costs and errors.
+            </li>
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
