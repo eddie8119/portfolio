@@ -7,7 +7,6 @@ import codeyt from "../../assets/codeyt.png";
 import codeingLanguageExchange from "../../assets/codeingLanguageExchange.png";
 import archProject from "../../assets/arch-project.jpg";
 import cyDesign from "../../assets/cy-design-rwd.jpg";
-import archGod from "../../assets/建築之神要告解.jpg";
 import aiVision from "../../assets/AI-vision.png";
 import pos from "../../assets/pos.jpg";
 import zeus from "../../assets/zeus.png";
