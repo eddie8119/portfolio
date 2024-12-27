@@ -38,8 +38,8 @@
 }
 
 .about__card:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    /* background: transparent; */
+    /* border-color: var(--color-primary-variant); */
     cursor: default;
 }
 

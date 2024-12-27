@@ -31,20 +31,6 @@ const Portfolio = () => {
       repoLink: "https://github.com/eddie8119/react-dashboard",
     },
     {
-      id: 1,
-      title: "Construction Management Cane",
-      img: constructionTool,
-      technologies: "Vue3 | Vuex | Firebase | Tailwind CSS",
-      description:
-        "Assisted interior industry designers in reducing cost and time wasted resulting from omissions.",
-      featurelists: [
-        "‧ Garnered 33,000 views and 253 shares by industry professionals for the introduction video.",
-        "‧ Over 57 industry interior designers registered. ",
-        "‧ Creating industry benefits: company count * savings starting from NT$3000 * number of projects per month. ",
-      ],
-      link: "https://interior-construction-helper.web.app/#/",
-    },
-    {
       id: 1.2,
       title: "Layout-focused",
       img: zeus,
@@ -54,6 +40,86 @@ const Portfolio = () => {
       featurelists: ["Use semantic HTML5 / Write modular and reusable CSS"],
       link: "https://zeus-network-demo.netlify.app/",
       repoLink: "https://github.com/eddie8119/react-dashboard",
+    },
+    {
+      id: 1,
+      title: "Construction Management Cane",
+      img: constructionTool,
+      technologies: "Vue3 | TypeScript | Firebase | Tailwind CSS",
+      description:
+        "Assisted interior industry designers in reducing cost and time wasted resulting from omissions.",
+      featurelists: [
+        "‧ Garnered 33,000 views and 253 shares by industry professionals for the introduction video.",
+        "‧ Over 57 industry interior designers registered. ",
+        "‧ Creating industry benefits: company count * savings starting from NT$3000 * number of projects per month. ",
+      ],
+      link: "https://interior-construction-helper.web.app/#/",
+      repoLink: "https://github.com/eddie8119/Kanban-interior",
+    },
+    {
+      id: 1,
+      title: "Next-Construction Management Cane",
+      img: constructionTool,
+      technologies: "Next | TypeScript",
+      description: "",
+      featurelists: [],
+      link: "",
+      repoLink: "https://github.com/eddie8119/interior-helper",
+    },
+    {
+      id: 4,
+      title: "Interior Design Company Website",
+      img: cyDesign,
+      technologies: "JavaScript | SCSS",
+      description:
+        "Assisted an interior design company with website optimization",
+      featurelists: [
+        "‧ Optimization 1: Establish main visual imagery to enhance visual texture",
+        "‧ Optimization 2: Add item selection to the portfolio for easier viewing",
+      ],
+      link: "https://eddie8119.github.io/cy-dstudio/",
+      repoLink: "https://github.com/eddie8119/cy-dstudio",
+    },
+    {
+      id: 5,
+      title: "Beverage Checkout POS",
+      img: pos,
+      technologies: "JavaScript | CSS",
+      description:
+        "Clicking on the menu can generate checkout cards. The cards can be independently deleted, and the total price of all cards can be calculated.",
+      featurelists: [
+        "‧ Object-Oriented Design",
+        "‧ Constructor Function to Generate Menu Object Instances",
+        "‧ Writing Functional Methods in the Prototype",
+      ],
+      link: "https://eddie8119.github.io/pos/",
+      repoLink: "https://github.com/eddie8119/pos",
+    },
+    {
+      id: 6,
+      title: "Architectural Firm Project Management System",
+      img: archProject,
+      technologies: "Vue2 | Vuex ",
+      description: "Edit detailed expenses of architectural projects",
+      featurelists: [
+        "‧ Transform operational pain points from the firm into product opportunities",
+        "‧ Use VUEX store to store information for create, read, update, and delete operations",
+      ],
+      link: "https://arch-project-management.netlify.app/",
+      repoLink: "https://github.com/eddie8119/arch-project-management",
+    },
+    {
+      id: 7,
+      title: "AI Vision Impairment Object Recognition Assistive Device",
+      img: aiVision,
+      technologies: "Python | YOLOv3",
+      description: "",
+      featurelists: [
+        "‧ Qualitative Research Interviews with Visually Impaired Individuals",
+        "‧ Identify User Needs and Corresponding Product Features",
+      ],
+      link: "https://www.youtube.com/watch?v=FMqWC8Rn-AY",
+      repoLink: "https://www.youtube.com/watch?v=-NY5qn2AHZk",
     },
     {
       id: 2,
@@ -74,68 +140,6 @@ const Portfolio = () => {
         "‧ Matchmaking the frount-end / back-end engerneer who want to enhance the other side of codeing language technique",
       ],
       link: "https://docs.google.com/forms/d/e/1FAIpQLSfnSu4WgpY392mXuZEh-cxxx73bDtwjIKxQaHXx2I0i-tW66A/viewform",
-    },
-    {
-      id: 4,
-      title: "Interior Design Company Website",
-      img: cyDesign,
-      technologies: "JavaScript | SCSS",
-      description:
-        "Assisted an interior design company with website optimization",
-      featurelists: [
-        "‧ Optimization 1: Establish main visual imagery to enhance visual texture",
-        "‧ Optimization 2: Add item selection to the portfolio for easier viewing",
-      ],
-      link: "https://eddie8119.github.io/cy-dstudio/",
-    },
-    {
-      id: 5,
-      title: "Beverage Checkout POS",
-      img: pos,
-      technologies: "JavaScript | CSS",
-      description:
-        "Clicking on the menu can generate checkout cards. The cards can be independently deleted, and the total price of all cards can be calculated.",
-      featurelists: [
-        "‧ Object-Oriented Design",
-        "‧ Constructor Function to Generate Menu Object Instances",
-        "‧ Writing Functional Methods in the Prototype",
-      ],
-      link: "https://eddie8119.github.io/pos/",
-    },
-    {
-      id: 6,
-      title: "Architectural Firm Project Management System",
-      img: archProject,
-      technologies: "Vue2 | Vuex ",
-      description: "Edit detailed expenses of architectural projects",
-      featurelists: [
-        "‧ Transform operational pain points from the firm into product opportunities",
-        "‧ Use VUEX store to store information for create, read, update, and delete operations",
-      ],
-      link: "https://arch-project-management.netlify.app/",
-    },
-    {
-      id: 7,
-      title: "AI Vision Impairment Object Recognition Assistive Device",
-      img: aiVision,
-      technologies: "Python | YOLOv3",
-      description: "",
-      featurelists: [
-        "‧ Qualitative Research Interviews with Visually Impaired Individuals",
-        "‧ Identify User Needs and Corresponding Product Features",
-      ],
-      link: "https://www.youtube.com/watch?v=FMqWC8Rn-AY",
-      repoLink: "https://www.youtube.com/watch?v=-NY5qn2AHZk",
-    },
-    {
-      id: 8,
-      title: "God of Architecture - I Want to Confess",
-      img: archGod,
-      technologies: "Vue3 | Firebase ",
-      description:
-        "Gather collective insights from the uncertainties encountered in architectural careers to provide everyone with the possibility of finding a new direction.",
-      featurelists: [],
-      link: "https://archconfession-1d0cd.firebaseapp.com/",
     },
   ];
 
