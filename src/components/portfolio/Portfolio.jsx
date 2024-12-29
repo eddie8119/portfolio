@@ -59,10 +59,10 @@ const Portfolio = () => {
       id: 1,
       title: "Next-Construction Management Cane",
       img: constructionTool,
-      technologies: "Next | TypeScript",
+      technologies: "Next | TypeScript | Nodejs",
       description: "",
       featurelists: [],
-      link: "",
+      link: "https://github.com/eddie8119/interior-helper",
       repoLink: "https://github.com/eddie8119/interior-helper",
     },
     {
