@@ -14,6 +14,16 @@ import zeus from "../../assets/zeus.png";
 const Portfolio = () => {
   const soloProjects = [
     {
+      id: 1,
+      title: "Next-Full-Stack-Construction Management Cane",
+      img: constructionTool,
+      technologies: "Next | TypeScript | Nodejs",
+      description: "(processing)",
+      featurelists: [],
+      link: "https://github.com/eddie8119/interior-helper",
+      repoLink: "https://github.com/eddie8119/interior-helper",
+    },
+    {
       id: 0,
       title: "Engineering Materials Management System",
       img: materialsTool,
@@ -55,16 +65,7 @@ const Portfolio = () => {
       link: "https://interior-construction-helper.web.app/#/",
       repoLink: "https://github.com/eddie8119/Kanban-interior",
     },
-    {
-      id: 1,
-      title: "Next-Construction Management Cane",
-      img: constructionTool,
-      technologies: "Next | TypeScript | Nodejs",
-      description: "",
-      featurelists: [],
-      link: "https://github.com/eddie8119/interior-helper",
-      repoLink: "https://github.com/eddie8119/interior-helper",
-    },
+
     {
       id: 4,
       title: "Interior Design Company Website",
