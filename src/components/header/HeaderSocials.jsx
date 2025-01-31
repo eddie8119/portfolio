@@ -1,6 +1,6 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
-import { FaGithub, FaYoutube } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaMedium } from "react-icons/fa";
 
 const HeaderSocials = () => {
   return (
@@ -14,6 +14,13 @@ const HeaderSocials = () => {
         rel="noreferrer"
       >
         <FaYoutube />
+      </a>
+      <a
+        href="https://hackmd.io/@H7lkjK3WTYquMl4v03LjYA/Bk2EXK1KA/edit"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <FaMedium />
       </a>
       <a
         href="https://www.linkedin.com/in/jing-wang-705a50105/"

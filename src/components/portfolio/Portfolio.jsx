@@ -20,9 +20,9 @@ const Portfolio = () => {
       technologies: "Next | TypeScript | Nodejs",
       description: "(processing)",
       featurelists: [
-        "Prisma operations PostgreSQL",
-        "NextAuth for authentication",
-        "Form validation using UseForm / Zod",
+        "‧ Prisma operations PostgreSQL",
+        "‧ NextAuth for authentication",
+        "‧ Form validation using UseForm / Zod",
       ],
       link: "https://github.com/eddie8119/interior-helper",
       repoLink: "https://github.com/eddie8119/interior-helper",
@@ -49,8 +49,11 @@ const Portfolio = () => {
       img: zeus,
       technologies:
         "React | TypeScript | Tailwind CSS | Sass | Flex & Grid | RWD ",
-      description: "Sharing Front-end Technology / Computational Thinking",
-      featurelists: ["Use semantic HTML5 / Write modular and reusable CSS"],
+      description: "",
+      featurelists: [
+        "‧ Use semantic HTML5",
+        "‧ Write modular and reusable CSS",
+      ],
       link: "https://zeus-network-demo.netlify.app/",
       repoLink: "https://github.com/eddie8119/react-dashboard",
     },
