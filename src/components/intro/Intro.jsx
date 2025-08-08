@@ -39,6 +39,7 @@ const Intro = () => {
               React & Next.js: Developed a company's official website with
               Static Site Generation (SSG).
             </li>
+            <li>Vue3: Built a IoT Operations Dashboard.</li>
             <li>
               Vue3: Built a SaaS platform for the real estate rental industry.
             </li>

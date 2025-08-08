@@ -14,11 +14,11 @@ const Experience = () => {
     "NuxtJS",
     "Node.js",
     "Express",
-    "NestJS",
     "RESTful APIs",
     "Git",
     "Tailwind CSS",
     "Firebase",
+    "Supabase",
   ];
 
   return (
