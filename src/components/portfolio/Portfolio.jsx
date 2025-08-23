@@ -25,7 +25,6 @@ const Portfolio = () => {
         "‧ Form validation using UseForm / Zod",
       ],
       link: "https://github.com/eddie8119/interior-helper",
-      repoLink: "https://github.com/eddie8119/interior-helper",
     },
     {
       id: 0,
