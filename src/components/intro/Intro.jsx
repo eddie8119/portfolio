@@ -35,15 +35,11 @@ const Intro = () => {
             <br />
             -Work Experience:
             <br />
+            <li>Vue3: AIoT Operations Dashboard.</li>
             <li>
-              React & Next.js: Developed a company's official website with
-              Static Site Generation (SSG).
+              Vue3: Real estate rental SaaS.
             </li>
-            <li>Vue3: Built a IoT Operations Dashboard.</li>
-            <li>
-              Vue3: Built a SaaS platform for the real estate rental industry.
-            </li>
-            <li>Vue2 & Nuxt.js: Created a gaming lobby platform.</li>
+            <li>Vue2 & Nuxt.js: Gaming lobby platform.</li>
             <br />
             -Team Contributions:
             <br />

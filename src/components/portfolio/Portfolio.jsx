@@ -4,8 +4,7 @@ import "./portfolio.css";
 import materialsTool from "../../assets/materials-tool.png";
 import constructionTool from "../../assets/工程管理.jpg";
 import codeyt from "../../assets/codeyt.png";
-import codeingLanguageExchange from "../../assets/codeingLanguageExchange.png";
-import archProject from "../../assets/arch-project.jpg";
+import KaiJi from "../../assets/KaiJi.png";
 import cyDesign from "../../assets/cy-design-rwd.jpg";
 import aiVision from "../../assets/AI-vision.png";
 import pos from "../../assets/pos.jpg";
@@ -14,11 +13,23 @@ import zeus from "../../assets/zeus.png";
 const Portfolio = () => {
   const soloProjects = [
     {
+      id: 0.1,
+      title: "KaiJi Independent Developer",
+      img: KaiJi,
+      technologies: "Vue3 | TypeScript | Nodejs",
+      description: "Building management applications for the interior design industry",
+      featurelists: [
+        "‧ Account: wang8119@gmail.com",
+        "‧ Password: v/hl0s0H#",
+      ],
+      link: "https://kaiji-app.vercel.app/",
+    },
+    {
       id: 1,
       title: "Next-Full-Stack-Construction Management Cane",
       img: constructionTool,
       technologies: "Next | TypeScript | Nodejs",
-      description: "(processing)",
+      description: "",
       featurelists: [
         "‧ Prisma operations PostgreSQL",
         "‧ NextAuth for authentication",
@@ -42,20 +53,7 @@ const Portfolio = () => {
       link: "https://youtu.be/Ho3Nqg1ynEI ",
       repoLink: "https://github.com/eddie8119/react-dashboard",
     },
-    {
-      id: 1.2,
-      title: "Layout-focused",
-      img: zeus,
-      technologies:
-        "React | TypeScript | Tailwind CSS | Sass | Flex & Grid | RWD ",
-      description: "",
-      featurelists: [
-        "‧ Use semantic HTML5",
-        "‧ Write modular and reusable CSS",
-      ],
-      link: "https://zeus-network-demo.netlify.app/",
-      repoLink: "https://github.com/eddie8119/react-dashboard",
-    },
+
     {
       id: 1,
       title: "Construction Management Cane",
@@ -71,20 +69,29 @@ const Portfolio = () => {
       link: "https://interior-construction-helper.web.app/#/",
       repoLink: "https://github.com/eddie8119/Kanban-interior",
     },
-
     {
       id: 4,
-      title: "Interior Design Company Website",
+      title: "Brand Website",
       img: cyDesign,
-      technologies: "JavaScript | SCSS",
+      technologies: "Nuxt2 | RWD | GA",
       description:
-        "Assisted an interior design company with website optimization",
+        "",
+      featurelists: [],
+      link: "https://designer-helper-funsugar.netlify.app/",
+    },
+        {
+      id: 1.2,
+      title: "Layout-focused",
+      img: zeus,
+      technologies:
+        "React | TypeScript | Tailwind CSS | Sass | Flex & Grid | RWD ",
+      description: "",
       featurelists: [
-        "‧ Optimization 1: Establish main visual imagery to enhance visual texture",
-        "‧ Optimization 2: Add item selection to the portfolio for easier viewing",
+        "‧ Use semantic HTML5",
+        "‧ Write modular and reusable CSS",
       ],
-      link: "https://eddie8119.github.io/cy-dstudio/",
-      repoLink: "https://github.com/eddie8119/cy-dstudio",
+      link: "https://zeus-network-demo.netlify.app/",
+      repoLink: "https://github.com/eddie8119/react-dashboard",
     },
     {
       id: 5,
@@ -100,19 +107,6 @@ const Portfolio = () => {
       ],
       link: "https://eddie8119.github.io/pos/",
       repoLink: "https://github.com/eddie8119/pos",
-    },
-    {
-      id: 6,
-      title: "Architectural Firm Project Management System",
-      img: archProject,
-      technologies: "Vue2 | Vuex ",
-      description: "Edit detailed expenses of architectural projects",
-      featurelists: [
-        "‧ Transform operational pain points from the firm into product opportunities",
-        "‧ Use VUEX store to store information for create, read, update, and delete operations",
-      ],
-      link: "https://arch-project-management.netlify.app/",
-      repoLink: "https://github.com/eddie8119/arch-project-management",
     },
     {
       id: 7,
@@ -135,17 +129,6 @@ const Portfolio = () => {
       description: "Sharing Front-end Technology / Computational Thinking",
       featurelists: [],
       link: "https://www.youtube.com/@code-not-cold",
-    },
-    {
-      id: 3,
-      title: "Hosting Codeing Language Exchange",
-      img: codeingLanguageExchange,
-      technologies: "Organization | Technical Influence",
-      description: "Exchange frount-end / back-end codeing language ",
-      featurelists: [
-        "‧ Matchmaking the frount-end / back-end engerneer who want to enhance the other side of codeing language technique",
-      ],
-      link: "https://docs.google.com/forms/d/e/1FAIpQLSfnSu4WgpY392mXuZEh-cxxx73bDtwjIKxQaHXx2I0i-tW66A/viewform",
     },
   ];
 
