@@ -77,7 +77,7 @@ const Portfolio = () => {
       description:
         "",
       featurelists: [],
-      link: "https://designer-helper-funsugar.netlify.app/",
+      link: "https://designer-helper.netlify.app/",
     },
         {
       id: 1.2,
